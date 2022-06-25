@@ -1,0 +1,141 @@
+/* Importing background image */
+body{
+  background-image: url("MaterialeEsercizioLim/background.jpg");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* logo resize */
+header > img{
+  width: 200px;
+  height: 90px;
+  position: absolute;
+  top: 100px;
+  left: 670px;
+}
+
+
+/* Heading resize */
+header > h1{
+  font-family: 'Lato', sans-serif;
+  color: #39FF14;
+  position: absolute;
+  top: 175px;
+  left: 550px;
+}
+
+
+/* Black transparent rectangle */
+.rettangolo1{
+  background-color: black;
+  text-align: center;
+  opacity: 0.5;
+  width: 1000px;
+  height: 670px;
+  border-radius: 2%;
+  position: absolute;
+  top: 20px;
+  left: 270px;
+}
+
+
+/* Green rectangle */
+.rettangolo2{
+  background-color: #39FF14;
+  width: 800px;
+  height: 30px;
+  position: absolute;
+  top: 246px;
+  left: 370px;
+}
+
+
+/* Resize buttons */
+nav section{
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  left: 600px;
+}
+
+
+/* First paragraph */
+#primoparagrafo{
+  position: absolute;
+  top: 280px;
+  left: 370px;
+}
+
+
+/* Second paragraph */
+#secondoparagrafo{
+  position: absolute;
+  top: 380px;
+  left: 370px;
+}
+
+
+/* Third paragraph */
+#terzoparagrafo{
+  position: absolute;
+  top: 480px;
+  left: 370px;
+}
+
+
+/* Charge1 */
+.carica1{
+  background-color: #FFA500;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: 360px;
+  left: 370px;
+}
+
+
+/* Charge2 */
+.carica2{
+  background-color: #03C03C;
+  width: 400px;
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: 460px;
+  left: 370px;
+}
+
+
+/* Charge3 */
+.carica3{
+  background-color: #831D1C;
+  width: 100px;
+  height: 25px;
+  border-radius: 5px 5px 5px 5px;
+  position: absolute;
+  top: 560px;
+  left: 370px;
+}
+
+/* Arrow */
+#freccia{
+  content:"&#8614";
+}
+
+/* Credits */
+footer{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  top: 650px;
+  left: 900px;
+}
+
+
+/* Font */
+.font{
+  font-family: 'Lato', sans-serif;
+}
